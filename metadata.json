@@ -1,0 +1,6 @@
+{
+  "name": "Smart Energy & Comfort Optimizer",
+  "description": "An intelligent agent designed to minimize electricity costs while maintaining occupant comfort. Intuitively pre-cools and shifts thermal loads based on peak/off-peak pricing plans, weather forecasts, and real-time thermal modeling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

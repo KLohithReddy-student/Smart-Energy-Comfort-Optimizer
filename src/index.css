@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-brand-primary: #10b981; /* emerald-500 */
+  --color-brand-secondary: #059669; /* emerald-600 */
+
+  /* Override slate colors with precise Geometric Balance colors */
+  --color-slate-950: #0b0f19;
+  --color-slate-900: #161d2f;
+  --color-slate-850: #1e2638;
+  --color-slate-800: #1f2a45;
+
+  /* Reshape border radius styles to crisp angular geometries (rounded-lg / rounded-md) */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 8px;
+  --radius-2xl: 8px;
+  --radius-3xl: 8px;
+}
+
